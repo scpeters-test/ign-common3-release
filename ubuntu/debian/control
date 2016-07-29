@@ -1,0 +1,47 @@
+Source: ignition-common
+Standards-Version: 3.9.8
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Section: science
+Priority: optional
+Build-Depends: cmake,
+               pkg-config,
+               debhelper (>= 9),
+               libfreeimage-dev,
+               libignition-math2-dev (>> 2.5),
+               libtinyxml2-dev,
+               uuid-dev,
+               libgts-dev,
+               libavformat-dev,
+               libavcodec-dev,
+               libswscale-dev
+Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign-common-release
+Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign-common-release
+Homepage: http://ignitionrobotics.org/
+
+Package: libignition-common0
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Ignition Common classes and functions for robot apps - Shared library
+  Ignition Common is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
+
+Package: libignition-common-dev
+Architecture: any
+Section: libdevel
+Depends: libfreeimage-dev,
+         libignition-math2-dev (>> 2.5),
+         libtinyxml2-dev,
+         uuid-dev,
+         libgts-dev,
+         libavformat-dev,
+         libavcodec-dev,
+         libswscale-dev,
+         libignition-common0 (= ${binary:Version}),
+         ${misc:Depends}
+Multi-Arch: same
+Description: Ignition Common classes and functions for robot apps - Development files
+  Ignition Common is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
