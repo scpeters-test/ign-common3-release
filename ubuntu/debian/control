@@ -13,7 +13,8 @@ Build-Depends: cmake,
                libgts-dev,
                libavformat-dev,
                libavcodec-dev,
-               libswscale-dev
+               libswscale-dev,
+               libavutil-dev
 Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign-common-release
 Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign-common-release
 Homepage: http://ignitionrobotics.org/
@@ -39,6 +40,7 @@ Depends: libfreeimage-dev,
          libavformat-dev,
          libavcodec-dev,
          libswscale-dev,
+         libavutil-dev,
          libignition-common0 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
