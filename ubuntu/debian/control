@@ -7,7 +7,7 @@ Build-Depends: cmake,
                pkg-config,
                debhelper (>= 9),
                libfreeimage-dev,
-               libignition-math2-dev (>> 2.5),
+               libignition-math3-dev,
                libtinyxml2-dev,
                uuid-dev,
                libgts-dev,
@@ -33,7 +33,7 @@ Package: libignition-common-dev
 Architecture: any
 Section: libdevel
 Depends: libfreeimage-dev,
-         libignition-math2-dev (>> 2.5),
+         libignition-math3-dev,
          libtinyxml2-dev,
          uuid-dev,
          libgts-dev,
