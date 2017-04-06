@@ -1,3 +1,9 @@
+ignition-common (0.2.0-1~yakkety) yakkety; urgency=medium
+
+  * ignition-common 0.2.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 07 Apr 2017 01:22:13 +0200
+
 ignition-common (0.1.0-1~yakkety) yakkety; urgency=medium
 
   * ignition-common 0.1.0-1 release
