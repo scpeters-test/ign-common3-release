@@ -1,3 +1,9 @@
+ignition-common (0.5.0~pre4-1~zesty) zesty; urgency=medium
+
+  * ignition-common 0.5.0~pre4-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 21 Dec 2017 00:31:40 +0100
+
 ignition-common (0.5.0~pre3-1~zesty) zesty; urgency=medium
 
   * ignition-common 0.5.0~pre3-1 release
