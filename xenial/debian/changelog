@@ -1,6 +1,6 @@
-ignition-common (1.0.0-1~xenial) xenial; urgency=medium
+ignition-common (1.0.1-1~xenial) xenial; urgency=medium
 
-  * ignition-common 1.0.0-1 release
+  * ignition-common 1.0.1-1 release
 
  -- Nate Koenig <nate@osrfoundation.org>  Fri, 05 Jan 2018 15:49:11 -0700
 
