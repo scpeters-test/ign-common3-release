@@ -21,7 +21,7 @@ Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign-common-release
 Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign-common-release
 Homepage: http://ignitionrobotics.org/
 
-Package: libignition-common0
+Package: libignition-common1
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -45,7 +45,7 @@ Depends: libfreeimage-dev,
          libavcodec-dev,
          libswscale-dev,
          libavutil-dev,
-         libignition-common0 (= ${binary:Version}),
+         libignition-common1 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Common classes and functions for robot apps - Development files
