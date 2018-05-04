@@ -1,3 +1,9 @@
+ignition-common (2.0.0~pre1-1~bionic) bionic; urgency=medium
+
+  * ignition-common 2.0.0~pre1-1 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Fri, 04 May 2018 13:48:34 -0700
+
 ignition-common (1.1.0-1~bionic) bionic; urgency=medium
 
   * ignition-common 1.1.0-1 release
