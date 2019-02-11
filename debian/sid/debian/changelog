@@ -1,3 +1,9 @@
+ignition-common3 (3.0.0~pre5-1~sid) sid; urgency=medium
+
+  * ignition-common3 3.0.0~pre5-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Mon, 11 Feb 2019 08:44:08 -0800
+
 ignition-common3 (3.0.0~pre4-1~sid) sid; urgency=medium
 
   * ignition-common3 3.0.0~pre4-1 release
