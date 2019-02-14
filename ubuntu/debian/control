@@ -28,8 +28,10 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Common classes and functions for robot apps - Shared library
-  Ignition Common is a component in the ignition framework, a set of libraries
-  designed to rapidly develop robot applications.
+ Ignition Common is a component in the ignition framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Main shared library
 
 Package: libignition-common3-core-dev
 Architecture: any
@@ -41,10 +43,10 @@ Depends: libignition-cmake2-dev,
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Common classes and functions (core) - Development files
-  Ignition Common is a component in the ignition framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Core development files
+ Ignition Common is a component in the ignition framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Core development files
 
 Package: libignition-common3-dev
 Architecture: any
@@ -57,10 +59,10 @@ Depends: libignition-common3-core-dev,
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Common classes and functions for robot apps - Metapackage
-  Ignition Common is a component in the ignition framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Metapackage for development
+ Ignition Common is a component in the ignition framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Metapackage for development
 
 Package: libignition-common3-av
 Architecture: any
@@ -69,10 +71,10 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Common classes and functions (AV) - Shared library
-  Ignition Common is a component in the ignition framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  AV component of the library
+ Ignition Common is a component in the ignition framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ AV component of the library
 
 Package: libignition-common3-av-dev
 Architecture: any
@@ -87,10 +89,10 @@ Depends: libignition-cmake2-dev,
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Common classes and functions (AV) - Development files
-  Ignition Common is a component in the ignition framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  AV component of the library, development files
+ Ignition Common is a component in the ignition framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ AV component of the library, development files
 
 Package: libignition-common3-events
 Architecture: any
@@ -99,10 +101,10 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Common classes and functions (Events) - Shared library
-  Ignition Common is a component in the ignition framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Events component of the library
+ Ignition Common is a component in the ignition framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Events component of the library
 
 Package: libignition-common3-events-dev
 Architecture: any
@@ -112,10 +114,10 @@ Depends: libignition-cmake2-dev,
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Common classes and functions (Events) - Development files
-  Ignition Common is a component in the ignition framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Events component of the library, development files
+ Ignition Common is a component in the ignition framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Events component of the library, development files
 
 Package: libignition-common3-graphics
 Architecture: any
@@ -124,10 +126,10 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Common classes and functions (Graphics) - Shared library
-  Ignition Common is a component in the ignition framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Graphics component of the library
+ Ignition Common is a component in the ignition framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Graphics component of the library
 
 Package: libignition-common3-graphics-dev
 Architecture: any
@@ -139,10 +141,10 @@ Depends: libignition-cmake2-dev,
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Common classes and functions (Graphics) - Development files
-  Ignition Common is a component in the ignition framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Graphics component of the library, development files
+ Ignition Common is a component in the ignition framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Graphics component of the library, development files
 
 Package: libignition-common3-profiler
 Architecture: any
@@ -151,10 +153,10 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Common classes and functions (Profiler) - Shared library
-  Ignition Common is a component in the ignition framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Profiler component of the library
+ Ignition Common is a component in the ignition framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Profiler component of the library
 
 Package: libignition-common3-profiler-dev
 Architecture: any
@@ -164,7 +166,7 @@ Depends: libignition-cmake2-dev,
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Common classes and functions (profiler) - Development files
-  Ignition Common is a component in the ignition framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  profiler component of the library, development files
+ Ignition Common is a component in the ignition framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ profiler component of the library, development files
