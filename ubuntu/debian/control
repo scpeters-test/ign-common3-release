@@ -37,7 +37,6 @@ Package: libignition-common3-core-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
-         libignition-math6-dev,
          uuid-dev,
          libignition-common3 (= ${binary:Version}),
          ${misc:Depends}
@@ -110,6 +109,7 @@ Package: libignition-common3-events-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
+         libignition-math6-dev,
          libignition-common3-events (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
@@ -135,6 +135,7 @@ Package: libignition-common3-graphics-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
+         libignition-math6-dev,
          libtinyxml2-dev,
          libgts-dev,
          libignition-common3-graphics (= ${binary:Version}),
