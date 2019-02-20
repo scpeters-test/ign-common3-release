@@ -1,4 +1,1 @@
-usr/include/*
-usr/lib/*/*.so
-usr/lib/*/pkgconfig/*.pc
-usr/lib/*/cmake/ignition-common*/*
+usr/lib/*/cmake/ignition-common[0-99]-all/ignition-common[0-99]-all*
