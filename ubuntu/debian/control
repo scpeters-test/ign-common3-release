@@ -40,6 +40,8 @@ Depends: libignition-cmake2-dev,
          uuid-dev,
          libignition-common3 (= ${binary:Version}),
          ${misc:Depends}
+Breaks: libignition-common-dev (<< 3.0.0~pre5+hg20190228r1b2df90990)
+Replaces: libignition-common-dev (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Multi-Arch: same
 Description: Ignition Common classes and functions (core) - Development files
  Ignition Common is a component in the ignition framework, a set of libraries
@@ -68,6 +70,8 @@ Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: libignition-common (<< 3.0.0~pre5+hg20190228r1b2df90990)
+Replaces: libignition-common (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Multi-Arch: same
 Description: Ignition Common classes and functions (AV) - Shared library
  Ignition Common is a component in the ignition framework, a set of libraries
@@ -87,6 +91,8 @@ Depends: libignition-cmake2-dev,
          libavutil-dev,
          libignition-common3-av (= ${binary:Version}),
          ${misc:Depends}
+Breaks: libignition-common-dev (<< 3.0.0~pre5+hg20190228r1b2df90990)
+Replaces: libignition-common-dev (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Multi-Arch: same
 Description: Ignition Common classes and functions (AV) - Development files
  Ignition Common is a component in the ignition framework, a set of libraries
@@ -99,6 +105,8 @@ Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: libignition-common (<< 3.0.0~pre5+hg20190228r1b2df90990)
+Replaces: libignition-common (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Multi-Arch: same
 Description: Ignition Common classes and functions (Events) - Shared library
  Ignition Common is a component in the ignition framework, a set of libraries
@@ -114,6 +122,8 @@ Depends: libignition-cmake2-dev,
          libignition-math6-dev,
          libignition-common3-events (= ${binary:Version}),
          ${misc:Depends}
+Breaks: libignition-common-dev (<< 3.0.0~pre5+hg20190228r1b2df90990)
+Replaces: libignition-common-dev (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Multi-Arch: same
 Description: Ignition Common classes and functions (Events) - Development files
  Ignition Common is a component in the ignition framework, a set of libraries
@@ -126,6 +136,8 @@ Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: libignition-common (<< 3.0.0~pre5+hg20190228r1b2df90990)
+Replaces: libignition-common (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Multi-Arch: same
 Description: Ignition Common classes and functions (Graphics) - Shared library
  Ignition Common is a component in the ignition framework, a set of libraries
@@ -143,6 +155,8 @@ Depends: libignition-cmake2-dev,
          libgts-dev,
          libignition-common3-graphics (= ${binary:Version}),
          ${misc:Depends}
+Breaks: libignition-common-dev (<< 3.0.0~pre5+hg20190228r1b2df90990)
+Replaces: libignition-common-dev (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Multi-Arch: same
 Description: Ignition Common classes and functions (Graphics) - Development files
  Ignition Common is a component in the ignition framework, a set of libraries
@@ -155,6 +169,8 @@ Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: libignition-common (<< 3.0.0~pre5+hg20190228r1b2df90990)
+Replaces: libignition-common (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Multi-Arch: same
 Description: Ignition Common classes and functions (Profiler) - Shared library
  Ignition Common is a component in the ignition framework, a set of libraries
@@ -169,6 +185,8 @@ Depends: libignition-cmake2-dev,
          libignition-common3-core-dev,
          libignition-common3-profiler (= ${binary:Version}),
          ${misc:Depends}
+Breaks: libignition-common-dev (<< 3.0.0~pre5+hg20190228r1b2df90990)
+Replaces: libignition-common-dev (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Multi-Arch: same
 Description: Ignition Common classes and functions (profiler) - Development files
  Ignition Common is a component in the ignition framework, a set of libraries
