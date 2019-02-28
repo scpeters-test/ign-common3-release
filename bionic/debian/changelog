@@ -1,3 +1,9 @@
+ignition-common3 (3.0.0-1~bionic) bionic; urgency=medium
+
+  * ignition-common3 3.0.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 28 Feb 2019 18:08:49 +0100
+
 ignition-common3 (3.0.0~pre5-1~bionic) bionic; urgency=medium
 
   * ignition-common3 3.0.0~pre5-1 release
