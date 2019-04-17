@@ -6,6 +6,7 @@ Priority: optional
 Build-Depends: cmake,
                pkg-config,
                debhelper (>= 9),
+               doxygen,
                libfreeimage-dev,
                libignition-cmake2-dev,
                libignition-math6-dev,
