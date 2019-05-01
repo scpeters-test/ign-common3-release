@@ -1,3 +1,9 @@
+ignition-common3 (3.1.0~pre1-1~stretch) stretch; urgency=medium
+
+  * ignition-common3 3.1.0~pre1-1 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Wed, 01 May 2019 10:48:52 -0700
+
 ignition-common3 (3.0.0-2~stretch) stretch; urgency=medium
 
   * ignition-common3 3.0.0-2 release
