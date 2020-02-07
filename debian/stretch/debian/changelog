@@ -1,3 +1,9 @@
+ignition-common3 (3.4.0~pre1-1~stretch) stretch; urgency=medium
+
+  * ignition-common3 3.4.0~pre1-1 release
+
+ -- Ian Chen <ichen@osrfoundation.org>  Fri, 07 Feb 2020 12:35:52 -0800
+
 ignition-common3 (3.3.0-1~stretch) stretch; urgency=medium
 
   * ignition-common3 3.3.0-1 release
