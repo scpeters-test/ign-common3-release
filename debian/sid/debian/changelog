@@ -1,3 +1,9 @@
+ignition-common3 (3.4.0-1~sid) sid; urgency=medium
+
+  * ignition-common3 3.4.0-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Fri, 21 Feb 2020 10:09:22 -0800
+
 ignition-common3 (3.4.0~pre1-1~sid) sid; urgency=medium
 
   * ignition-common3 3.4.0~pre1-1 release
